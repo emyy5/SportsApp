@@ -10,7 +10,7 @@ import CoreData
 import SystemConfiguration
 
 class CoreDataService{
-    
+    //
     func convertFromNSObjectToFilm(items:[NSManagedObject])->LeaguesResult{
         var resultLeagues = LeaguesResult(countrys: [Leagus]())
         for item in items {
